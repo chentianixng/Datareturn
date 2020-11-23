@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<adtf:ddl xmlns:adtf="adtf">
+  <header>
+    <language_version>2.0</language_version>
+    <author>TTTech TTX-Mwcodegenerator (Version 0.17.0, 18-Apr-2018)</author>
+    <date_creation>19-08-2020</date_creation>
+    <date_change/>
+    <description>CtApImageProcess_FreeRunning - IFSET 1.1.20</description>
+  </header>
+  <datatypes>
+    <datatype description="predefined ADTF tUInt8 datatype" name="tUInt8" size="8"/>
+    <datatype description="predefined ADTF tInt8 datatype" name="tInt8" size="8"/>
+    <datatype description="predefined ADTF tUInt16 datatype" name="tUInt16" size="16"/>
+    <datatype description="predefined ADTF tInt16 datatype" name="tInt16" size="16"/>
+    <datatype description="predefined ADTF tUInt32 datatype" name="tUInt32" size="32"/>
+    <datatype description="predefined ADTF tInt32 datatype" name="tInt32" size="32"/>
+    <datatype description="predefined ADTF tFloat32 datatype" name="tFloat32" size="32"/>
+  </datatypes>
+  <enums>
+    <enum name="tStd_ReturnType" type="tUInt8">
+      <element name="RTE_E_NEVER_RECEIVED" value="133"/>
+      <element name="RTE_E_MAX_AGE_EXCEEDED" value="64"/>
+      <element name="RTE_E_COM_STOPPED" value="128"/>
+      <element name="RTE_E_TIMEOUT" value="129"/>
+      <element name="RTE_E_NO_DATA" value="131"/>
+      <element name="RTE_E_OK" value="0"/>
+      <element name="RTE_E_TRANSMIT_ACK" value="132"/>
+      <element name="RTE_E_LIMIT" value="130"/>
+      <element name="RTE_E_INVALID" value="1"/>
+      <element name="RTE_E_LOST_DATA" value="64"/>
+    </enum>
+  </enums>
+  <structs>
+    <struct alignment="1" name="Std_ReturnType" version="2">
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" name="result" type="tStd_ReturnType" min="0" max="255"/>
+    </struct>
+    <!--Mapping of primitive Type Dem_EventIdType to tUInt16-->
+    <struct alignment="2" name="Dem_EventIdType" version="1">
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="0" max="65535" min="0" name="element" type="tUInt16"/>
+    </struct>
+    <!--Mapping of primitive Type Dem_EventStatusExtendedType to tUInt8-->
+    <struct alignment="1" name="Dem_EventStatusExtendedType" version="1">
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="element" type="tUInt8"/>
+    </struct>
+    <!--Mapping of primitive Type Dem_EventStatusType to tUInt8-->
+    <struct alignment="1" name="Dem_EventStatusType" version="1">
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="element" type="tUInt8"/>
+    </struct>
+    <!--Mapping of primitive Type Dt_ENUM_SWCID to tUInt8-->
+    <struct alignment="1" name="Dt_ENUM_SWCID" version="1">
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="element" type="tUInt8"/>
+    </struct>
+    <!--Definition for struct Dt_RECORD_SWVersion_ZStage with size 4 bytes (packed size: 4 bytes)-->
+    <struct alignment="1" name="Dt_RECORD_SWVersion_ZStage" version="1">
+      <!--Element with RTE datatype uint8, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="DeVersion0" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 1 bytes (packed offset: 1 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="1" max="255" min="0" name="DeVersion1" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 2 bytes (packed offset: 2 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="2" max="255" min="0" name="DeVersion2" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 3 bytes (packed offset: 3 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="3" max="255" min="0" name="DeVersion3" type="tUInt8"/>
+    </struct>
+    <!--Definition for struct Dt_IFSET_VERSION with size 4 bytes (packed size: 4 bytes)-->
+    <struct alignment="1" name="Dt_IFSET_VERSION" version="1">
+      <!--Element with RTE datatype uint8, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="DeMajor" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 1 bytes (packed offset: 1 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="1" max="255" min="0" name="DeMinor" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 2 bytes (packed offset: 2 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="2" max="255" min="0" name="DePatch" type="tUInt8"/>
+      <!--Element with RTE datatype UINT_GAP_8, offset 3 bytes (packed offset: 3 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="3" max="255" min="0" name="PaddingGap8_1" type="tUInt8"/>
+    </struct>
+    <!--Definition for struct Dt_RECORD_SW_Version with size 4 bytes (packed size: 4 bytes)-->
+    <struct alignment="2" name="Dt_RECORD_SW_Version" version="1">
+      <!--Element with RTE datatype uint8, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="DeMajor" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 1 bytes (packed offset: 1 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="1" max="255" min="0" name="DeMinor" type="tUInt8"/>
+      <!--Element with RTE datatype UINT_GAP_16, offset 2 bytes (packed offset: 2 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="2" max="65535" min="0" name="PaddingGap16_1" type="tUInt16"/>
+    </struct>
+    <!--Definition for struct Dt_RECORD_BuildDate with size 8 bytes (packed size: 8 bytes)-->
+    <struct alignment="2" name="Dt_RECORD_BuildDate" version="1">
+      <!--Element with RTE datatype uint16, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="0" max="65535" min="0" name="DeYear" type="tUInt16"/>
+      <!--Element with RTE datatype uint8, offset 2 bytes (packed offset: 2 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="2" max="255" min="0" name="DeMonth" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 3 bytes (packed offset: 3 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="3" max="255" min="0" name="DeDay" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 4 bytes (packed offset: 4 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="4" max="255" min="0" name="DeHour" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 5 bytes (packed offset: 5 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="5" max="255" min="0" name="DeMinute" type="tUInt8"/>
+      <!--Element with RTE datatype uint8, offset 6 bytes (packed offset: 6 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="6" max="255" min="0" name="DeSecond" type="tUInt8"/>
+      <!--Element with RTE datatype UINT_GAP_8, offset 7 bytes (packed offset: 7 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="7" max="255" min="0" name="PaddingGap8_1" type="tUInt8"/>
+    </struct>
+    <!--Definition for struct Dt_RECORD_SWC_Identification with size 32 bytes (packed size: 32 bytes)-->
+    <struct alignment="2" name="Dt_RECORD_SWC_Identification" version="1">
+      <!--Element with RTE datatype Dt_RECORD_SWVersion_ZStage, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" name="DeZStage" type="Dt_RECORD_SWVersion_ZStage"/>
+      <!--Element with RTE datatype Dt_IFSET_VERSION, offset 4 bytes (packed offset: 4 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="4" name="DeSwcIFSET" type="Dt_IFSET_VERSION"/>
+      <!--Element with RTE datatype Dt_RECORD_SW_Version, offset 8 bytes (packed offset: 8 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="8" name="DePlatformVersion" type="Dt_RECORD_SW_Version"/>
+      <!--Element with RTE datatype Dt_RECORD_BuildDate, offset 12 bytes (packed offset: 12 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="12" name="DeBuildDatePlatform" type="Dt_RECORD_BuildDate"/>
+      <!--Element with RTE datatype Dt_RECORD_SW_Version, offset 20 bytes (packed offset: 20 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="20" name="DeSWCVersion" type="Dt_RECORD_SW_Version"/>
+      <!--Element with RTE datatype Dt_RECORD_BuildDate, offset 24 bytes (packed offset: 24 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="24" name="DeBuildDateSWC" type="Dt_RECORD_BuildDate"/>
+    </struct>
+    <!--Definition for struct Dt_RECORD_StbmTimestamp with size 16 bytes (packed size: 16 bytes)-->
+    <struct alignment="4" name="Dt_RECORD_StbmTimestamp" version="1">
+      <!--Element with RTE datatype uint8, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="status" type="tUInt8"/>
+      <!--Element with RTE datatype UINT_GAP_8, offset 1 bytes (packed offset: 1 bytes)-->
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="1" max="255" min="0" name="PaddingGap8_1" type="tUInt8"/>
+      <!--Element with RTE datatype UINT_GAP_16, offset 2 bytes (packed offset: 2 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="2" max="65535" min="0" name="PaddingGap16_2" type="tUInt16"/>
+      <!--Element with RTE datatype uint32, offset 4 bytes (packed offset: 4 bytes)-->
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="4" max="4294967295" min="0" name="nanoseconds" type="tUInt32"/>
+      <!--Element with RTE datatype uint32, offset 8 bytes (packed offset: 8 bytes)-->
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="8" max="4294967295" min="0" name="seconds" type="tUInt32"/>
+      <!--Element with RTE datatype uint16, offset 12 bytes (packed offset: 12 bytes)-->
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="12" max="65535" min="0" name="secondsHigh" type="tUInt16"/>
+      <!--Element with RTE datatype UINT_GAP_16, offset 14 bytes (packed offset: 14 bytes)-->
+      <element alignment="2" arraysize="1" byteorder="LE" bytepos="14" max="65535" min="0" name="PaddingGap16_3" type="tUInt16"/>
+    </struct>
+    <!--Definition for struct Dt_RECORD_Timestamp with size 8 bytes (packed size: 8 bytes)-->
+    <struct alignment="4" name="Dt_RECORD_Timestamp" version="1">
+      <!--Element with RTE datatype uint32, offset 0 bytes (packed offset: 0 bytes)-->
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="0" max="4294967295" min="0" name="DeTimestampHigh" type="tUInt32"/>
+      <!--Element with RTE datatype uint32, offset 4 bytes (packed offset: 4 bytes)-->
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="4" max="4294967295" min="0" name="DeTimestampLow" type="tUInt32"/>
+    </struct>
+    <!--Mapping of primitive Type Dt_ENUM_CLKSOURCE to tUInt8-->
+    <struct alignment="1" name="Dt_ENUM_CLKSOURCE" version="1">
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="element" type="tUInt8"/>
+    </struct>
+    <!--Mapping of primitive Type sint32 to tInt32-->
+    <struct alignment="4" name="sint32" version="1">
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="0" max="2147483647" min="-2147483648" name="element" type="tInt32"/>
+    </struct>
+    <!--Mapping of primitive Type Dt_Someip_DataBuffer to tUInt8-->
+    <struct alignment="1" name="Dt_Someip_DataBuffer" version="1">
+      <element alignment="1" arraysize="1" byteorder="LE" bytepos="0" max="255" min="0" name="element" type="tUInt8"/>
+    </struct>
+    <!--Mapping of primitive Type Dt_Someip_DataBufferSize to tUInt32-->
+    <struct alignment="4" name="Dt_Someip_DataBufferSize" version="1">
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="0" max="4294967295" min="0" name="element" type="tUInt32"/>
+    </struct>
+    <!--Mapping of primitive Type Dt_Someip_Timeout to tUInt32-->
+    <struct alignment="4" name="Dt_Someip_Timeout" version="1">
+      <element alignment="4" arraysize="1" byteorder="LE" bytepos="0" max="4294967295" min="0" name="element" type="tUInt32"/>
+    </struct>
+  </structs>
+  <streams/>
+</adtf:ddl>
+

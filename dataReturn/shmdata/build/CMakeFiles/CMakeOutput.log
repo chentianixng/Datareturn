@@ -1,0 +1,250 @@
+The target system is: QNX - 700 - aarch64le
+The host system is: Linux - 5.4.0-53-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc 
+Build flags: ;-D_QNX_SOURCE;-D_QNX_SOURCE
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++
+Build flags: ;-D_QNX_SOURCE;-D_QNX_SOURCE
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/3.15.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make cmTC_0c1dc/fast && /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make -f CMakeFiles/cmTC_0c1dc.dir/build.make CMakeFiles/cmTC_0c1dc.dir/build
+make[1]: Entering directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c1dc.dir/testCCompiler.c.o
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -Vgcc_ntoaarch64le   -D_QNX_SOURCE -D_QNX_SOURCE    -o CMakeFiles/cmTC_0c1dc.dir/testCCompiler.c.o   -c /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0c1dc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c1dc.dir/link.txt --verbose=1
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -Vgcc_ntoaarch64le  -D_QNX_SOURCE -D_QNX_SOURCE     CMakeFiles/cmTC_0c1dc.dir/testCCompiler.c.o  -o cmTC_0c1dc 
+make[1]: Leaving directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make cmTC_78e6d/fast && /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make -f CMakeFiles/cmTC_78e6d.dir/build.make CMakeFiles/cmTC_78e6d.dir/build
+make[1]: Entering directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -Vgcc_ntoaarch64le   -D_QNX_SOURCE -D_QNX_SOURCE    -v -o CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/cc1 -D_QNX_SOURCE -D_QNX_SOURCE -quiet -fstack-protector-strong -nostdinc -D__LANGUAGE_C -D_LANGUAGE_C -D__QNX__ -D__QNXNTO__ -D__GNUC__=5 -D__GNUC_MINOR__=4 -D__GNUC_PATCHLEVEL__=0 -D__unix__ -D__unix -D__ELF__ -fPIE -D__LITTLEENDIAN__ -Asystem(unix) -isystem /home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/include -isystem /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/include /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c -dumpbase /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c -o - | \
+ /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-as -EL -o CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o
+Linking C executable cmTC_78e6d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78e6d.dir/link.txt --verbose=1
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -Vgcc_ntoaarch64le  -D_QNX_SOURCE -D_QNX_SOURCE    -v CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o  -o cmTC_78e6d 
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-ld -plugin=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/liblto_plugin.so -plugin-opt=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/fileFKy3ME_qcc_14886/tmp_qcc_14886.res --dynamic-linker /usr/lib/ldqnx-64.so.2 --sysroot=/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/ --hash-style=gnu --build-id=md5 --warn-shared-textrel -zrelro -znow -pie --eh-frame-hdr /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crt1.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crti.o /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o -o cmTC_78e6d -rpath-link /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -Y/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -L/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/ -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0 -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib/ -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a -lc -Bstatic -lcS /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crtn.o
+cc: unlinking /tmp/fileFKy3ME_qcc_14886/tmp_qcc_14886.res
+cc: removing  /tmp/fileFKy3ME_qcc_14886
+make[1]: Leaving directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ntoaarch64-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make cmTC_78e6d/fast && /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make -f CMakeFiles/cmTC_78e6d.dir/build.make CMakeFiles/cmTC_78e6d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -Vgcc_ntoaarch64le   -D_QNX_SOURCE -D_QNX_SOURCE    -v -o CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf]
+  ignore line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/cc1 -D_QNX_SOURCE -D_QNX_SOURCE -quiet -fstack-protector-strong -nostdinc -D__LANGUAGE_C -D_LANGUAGE_C -D__QNX__ -D__QNXNTO__ -D__GNUC__=5 -D__GNUC_MINOR__=4 -D__GNUC_PATCHLEVEL__=0 -D__unix__ -D__unix -D__ELF__ -fPIE -D__LITTLEENDIAN__ -Asystem(unix) -isystem /home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/include -isystem /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/include /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c -dumpbase /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c -o - | ; /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-as -EL -o CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Linking C executable cmTC_78e6d]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78e6d.dir/link.txt --verbose=1]
+  ignore line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -Vgcc_ntoaarch64le  -D_QNX_SOURCE -D_QNX_SOURCE    -v CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o  -o cmTC_78e6d ]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf]
+  link line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-ld -plugin=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/liblto_plugin.so -plugin-opt=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/fileFKy3ME_qcc_14886/tmp_qcc_14886.res --dynamic-linker /usr/lib/ldqnx-64.so.2 --sysroot=/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/ --hash-style=gnu --build-id=md5 --warn-shared-textrel -zrelro -znow -pie --eh-frame-hdr /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crt1.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crti.o /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o -o cmTC_78e6d -rpath-link /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -Y/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -L/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/ -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0 -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib/ -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a -lc -Bstatic -lcS /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crtn.o]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-ld] ==> ignore
+    arg [-plugin=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/fileFKy3ME_qcc_14886/tmp_qcc_14886.res] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/usr/lib/ldqnx-64.so.2] ==> ignore
+    arg [--sysroot=/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id=md5] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crt1.o] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crti.o] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o] ==> ignore
+    arg [CMakeFiles/cmTC_78e6d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_78e6d] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> ignore
+    arg [-Y/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> dirs [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/] ==> dir [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib/] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib/]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a]
+    arg [-lc] ==> lib [c]
+    arg [-Bstatic] ==> ignore
+    arg [-lcS] ==> lib [cS]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crtn.o] ==> ignore
+  collapse lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a]
+  collapse lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/] ==> [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib/] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+  implicit libs: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a;c;cS;/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a]
+  implicit dirs: [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib;/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0;/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make cmTC_b22ca/fast && /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make -f CMakeFiles/cmTC_b22ca.dir/build.make CMakeFiles/cmTC_b22ca.dir/build
+make[1]: Entering directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b22ca.dir/testCXXCompiler.cxx.o
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++ -Vgcc_ntoaarch64le -lang-c++   -D_QNX_SOURCE -D_QNX_SOURCE    -o CMakeFiles/cmTC_b22ca.dir/testCXXCompiler.cxx.o -c /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b22ca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b22ca.dir/link.txt --verbose=1
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++ -Vgcc_ntoaarch64le -lang-c++  -D_QNX_SOURCE -D_QNX_SOURCE     CMakeFiles/cmTC_b22ca.dir/testCXXCompiler.cxx.o  -o cmTC_b22ca 
+make[1]: Leaving directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make cmTC_ca6ff/fast && /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make -f CMakeFiles/cmTC_ca6ff.dir/build.make CMakeFiles/cmTC_ca6ff.dir/build
+make[1]: Entering directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++ -Vgcc_ntoaarch64le -lang-c++   -D_QNX_SOURCE -D_QNX_SOURCE    -v -o CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/cc1plus -D_QNX_SOURCE -D_QNX_SOURCE -quiet -fstack-protector-strong -nostdinc -nostdinc++ -std=gnu++11 -D__QNX__ -D__QNXNTO__ -D__GNUC__=5 -D__GNUC_MINOR__=4 -D__GNUC_PATCHLEVEL__=0 -D__NO_INLINE__ -D__DEPRECATED -D__unix__ -D__unix -D__ELF__ -fPIE -D__LITTLEENDIAN__ -Asystem(unix) -isystem /home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/include -isystem /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/include -isystem /home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/include/c++/v1 /usr/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -dumpbase /usr/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -o - | \
+ /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-as -EL -o CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o
+Linking CXX executable cmTC_ca6ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca6ff.dir/link.txt --verbose=1
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++ -Vgcc_ntoaarch64le -lang-c++  -D_QNX_SOURCE -D_QNX_SOURCE    -v CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ca6ff 
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf
+cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf
+/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-ld -plugin=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/liblto_plugin.so -plugin-opt=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/filefNKuRf_qcc_14910/tmp_qcc_14910.res --dynamic-linker /usr/lib/ldqnx-64.so.2 --sysroot=/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/ --hash-style=gnu --build-id=md5 --warn-shared-textrel -zrelro -znow -pie --eh-frame-hdr /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crt1.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crti.o /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ca6ff -rpath-link /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -Y/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -L/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0// -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0 -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib// -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -lc++ -lm /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a -lc -Bstatic -lcS /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crtn.o
+cc: unlinking /tmp/filefNKuRf_qcc_14910/tmp_qcc_14910.res
+cc: removing  /tmp/filefNKuRf_qcc_14910
+make[1]: Leaving directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ntoaarch64-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make cmTC_ca6ff/fast && /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/make -f CMakeFiles/cmTC_ca6ff.dir/build.make CMakeFiles/cmTC_ca6ff.dir/build]
+  ignore line: [make[1]: Entering directory '/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++ -Vgcc_ntoaarch64le -lang-c++   -D_QNX_SOURCE -D_QNX_SOURCE    -v -o CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf]
+  ignore line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/cc1plus -D_QNX_SOURCE -D_QNX_SOURCE -quiet -fstack-protector-strong -nostdinc -nostdinc++ -std=gnu++11 -D__QNX__ -D__QNXNTO__ -D__GNUC__=5 -D__GNUC_MINOR__=4 -D__GNUC_PATCHLEVEL__=0 -D__NO_INLINE__ -D__DEPRECATED -D__unix__ -D__unix -D__ELF__ -fPIE -D__LITTLEENDIAN__ -Asystem(unix) -isystem /home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/include -isystem /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/include -isystem /home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/include/c++/v1 /usr/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -dumpbase /usr/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -o - | ; /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-as -EL -o CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Linking CXX executable cmTC_ca6ff]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca6ff.dir/link.txt --verbose=1]
+  ignore line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/qcc -lang-c++ -Vgcc_ntoaarch64le -lang-c++  -D_QNX_SOURCE -D_QNX_SOURCE    -v CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ca6ff ]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le++.conf]
+  ignore line: [cc: looking for gcc_ntoaarch64le in /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/etc/qcc/gcc/5.4.0/gcc_ntoaarch64le.conf]
+  link line: [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-ld -plugin=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/liblto_plugin.so -plugin-opt=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/filefNKuRf_qcc_14910/tmp_qcc_14910.res --dynamic-linker /usr/lib/ldqnx-64.so.2 --sysroot=/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/ --hash-style=gnu --build-id=md5 --warn-shared-textrel -zrelro -znow -pie --eh-frame-hdr /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crt1.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crti.o /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ca6ff -rpath-link /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -Y/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -L/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0// -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0 -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib// -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib -L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib -lc++ -lm /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a -lc -Bstatic -lcS /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a /home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o /home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crtn.o]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/bin/aarch64-unknown-nto-qnx7.0.0-ld] ==> ignore
+    arg [-plugin=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/filefNKuRf_qcc_14910/tmp_qcc_14910.res] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/usr/lib/ldqnx-64.so.2] ==> ignore
+    arg [--sysroot=/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id=md5] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crt1.o] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crti.o] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o] ==> ignore
+    arg [CMakeFiles/cmTC_ca6ff.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ca6ff] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> ignore
+    arg [-Y/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib:/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> dirs [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//] ==> dir [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib//] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib//]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib]
+    arg [-L/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a]
+    arg [-lc] ==> lib [c]
+    arg [-Bstatic] ==> ignore
+    arg [-lcS] ==> lib [cS]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a]
+    arg [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o] ==> ignore
+    arg [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/crtn.o] ==> ignore
+  collapse lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a]
+  collapse lib [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a] ==> [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//] ==> [/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib//] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib]
+  collapse library dir [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib] ==> [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib]
+  implicit libs: [c++;m;/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a;c;cS;/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0/libgcc.a]
+  implicit dirs: [/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/usr/lib;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/opt/lib;/home/igs/qnx_iecu/qnx_safety/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0;/home/igs/qnx_iecu/qnx_safety/target/qnx7/aarch64le/lib/gcc/5.4.0;/home/igs/qnx_iecu/qnx_safety/target/qnx7/usr/aarch64-unknown-nto-qnx7.0.0/lib]
+  implicit fwks: []
+
+

@@ -1,0 +1,1593 @@
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  \verbatim
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  \endverbatim
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *             File:  Rte_Type.h
+ *           Config:  PerformanceHost00_Project.dpa
+ *      ECU-Project:  PerformanceHost00_Project
+ *
+ *        Generator:  MICROSAR RTE Generator Version 4.20.0
+ *                    RTE Core Version 1.20.0
+ *          License:  CBD1800612
+ *
+ *      Description:  Header file containing user defined AUTOSAR types and RTE structures
+ *********************************************************************************************************************/
+
+/* double include prevention */
+#ifndef _RTE_TYPE_H
+# define _RTE_TYPE_H
+
+# include "Rte.h"
+
+
+/**********************************************************************************************************************
+ * Data type definitions
+ *********************************************************************************************************************/
+
+# define Rte_TypeDef_Dem_EventIdType
+typedef uint16 Dem_EventIdType;
+
+# define Rte_TypeDef_Dt_BOOL
+typedef boolean Dt_BOOL;
+
+# define Rte_TypeDef_Dt_BuildRevision
+typedef uint32 Dt_BuildRevision;
+
+# define Rte_TypeDef_Dt_Enable
+typedef boolean Dt_Enable;
+
+# define Rte_TypeDef_Dt_ErrorStatus
+typedef boolean Dt_ErrorStatus;
+
+# define Rte_TypeDef_Dt_SINT16_1_0
+typedef sint16 Dt_SINT16_1_0;
+
+# define Rte_TypeDef_Dt_SINT8_1_0
+typedef sint8 Dt_SINT8_1_0;
+
+# define Rte_TypeDef_Dt_ShutdownTrigger
+typedef boolean Dt_ShutdownTrigger;
+
+# define Rte_TypeDef_Dt_UINT16_1_0
+typedef uint16 Dt_UINT16_1_0;
+
+# define Rte_TypeDef_Dt_UINT16_1_0_Voltages_mV
+typedef uint16 Dt_UINT16_1_0_Voltages_mV;
+
+# define Rte_TypeDef_Dt_UINT32_1_0
+typedef uint32 Dt_UINT32_1_0;
+
+# define Rte_TypeDef_Dt_UINT32_1_0_HSVM
+typedef uint32 Dt_UINT32_1_0_HSVM;
+
+# define Rte_TypeDef_Dt_UINT8_1_0
+typedef uint8 Dt_UINT8_1_0;
+
+# define Rte_TypeDef_Dt_VehicleAcceleration
+typedef float32 Dt_VehicleAcceleration;
+
+# define Rte_TypeDef_Dem_EventStatusType
+typedef uint8 Dem_EventStatusType;
+
+# define Rte_TypeDef_Dt_ENUM_CLKSOURCE
+typedef uint8 Dt_ENUM_CLKSOURCE;
+
+# define Rte_TypeDef_Dt_ENUM_CodingStored
+typedef uint8 Dt_ENUM_CodingStored;
+
+# define Rte_TypeDef_Dt_ENUM_ContinentCodes
+typedef uint8 Dt_ENUM_ContinentCodes;
+
+# define Rte_TypeDef_Dt_ENUM_CpEventMgr_TestResultTyp
+typedef uint8 Dt_ENUM_CpEventMgr_TestResultTyp;
+
+# define Rte_TypeDef_Dt_ENUM_EHErrorID
+typedef uint16 Dt_ENUM_EHErrorID;
+
+# define Rte_TypeDef_Dt_ENUM_Em_debounce_status_e
+typedef uint8 Dt_ENUM_Em_debounce_status_e;
+
+# define Rte_TypeDef_Dt_ENUM_LCS_State
+typedef uint8 Dt_ENUM_LCS_State;
+
+# define Rte_TypeDef_Dt_ENUM_PerWriteAllStatus
+typedef uint8 Dt_ENUM_PerWriteAllStatus;
+
+# define Rte_TypeDef_Dt_ENUM_Qualifier
+typedef uint8 Dt_ENUM_Qualifier;
+
+# define Rte_TypeDef_Dt_ENUM_QuestionType
+typedef uint8 Dt_ENUM_QuestionType;
+
+# define Rte_TypeDef_Dt_ENUM_RequestedMesswert_BISTQMPH00
+typedef uint16 Dt_ENUM_RequestedMesswert_BISTQMPH00;
+
+# define Rte_TypeDef_Dt_ENUM_RequestedMesswert_PerPH00
+typedef uint16 Dt_ENUM_RequestedMesswert_PerPH00;
+
+# define Rte_TypeDef_Dt_ENUM_SWCID
+typedef uint8 Dt_ENUM_SWCID;
+
+# define Rte_TypeDef_Dt_ENUM_ShutDownStatus
+typedef uint8 Dt_ENUM_ShutDownStatus;
+
+# define Rte_TypeDef_Dt_ENUM_VAR_HWVariant
+typedef uint8 Dt_ENUM_VAR_HWVariant;
+
+# define Rte_TypeDef_Dt_ARRAY120_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY120_UINT8_1_0[120];
+
+# define Rte_TypeDef_Dt_ARRAY1340_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY1340_UINT8_1_0[1340];
+
+# define Rte_TypeDef_Dt_ARRAY1536_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY1536_UINT8_1_0[1536];
+
+# define Rte_TypeDef_Dt_ARRAY1600_UINT32_1_0
+typedef Dt_UINT32_1_0 Dt_ARRAY1600_UINT32_1_0[1600];
+
+# define Rte_TypeDef_Dt_ARRAY16_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY16_UINT8_1_0[16];
+
+# define Rte_TypeDef_Dt_ARRAY28_UINT8_1_0
+typedef uint8 Dt_ARRAY28_UINT8_1_0[28];
+
+# define Rte_TypeDef_Dt_ARRAY32_Qualifier
+typedef Dt_ENUM_Qualifier Dt_ARRAY32_Qualifier[32];
+
+# define Rte_TypeDef_Dt_ARRAY32_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY32_UINT8_1_0[32];
+
+# define Rte_TypeDef_Dt_ARRAY32_Voltage
+typedef Dt_UINT16_1_0_Voltages_mV Dt_ARRAY32_Voltage[32];
+
+# define Rte_TypeDef_Dt_ARRAY512_DtcStatusTable
+typedef uint8 Dt_ARRAY512_DtcStatusTable[512];
+
+# define Rte_TypeDef_Dt_ARRAY5_ReleaseType
+typedef uint8 Dt_ARRAY5_ReleaseType[5];
+
+# define Rte_TypeDef_Dt_ARRAY6_UINT32_1_0
+typedef Dt_UINT32_1_0 Dt_ARRAY6_UINT32_1_0[6];
+
+# define Rte_TypeDef_Dt_ARRAY7920_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY7920_UINT8_1_0[7920];
+
+# define Rte_TypeDef_Dt_ARRAY8_Qualifier
+typedef Dt_ENUM_Qualifier Dt_ARRAY8_Qualifier[8];
+
+# define Rte_TypeDef_Dt_ARRAY8_Temperature
+typedef Dt_SINT16_1_0 Dt_ARRAY8_Temperature[8];
+
+# define Rte_TypeDef_Dt_ARRAY8_UINT8_1_0
+typedef Dt_UINT8_1_0 Dt_ARRAY8_UINT8_1_0[8];
+
+# define Rte_TypeDef_Dt_ARRAY_1024_DisplayData
+typedef uint32 Dt_ARRAY_1024_DisplayData[1024];
+
+# define Rte_TypeDef_Dt_ARRAY_6_EHReport
+typedef uint32 Dt_ARRAY_6_EHReport[6];
+
+# define Rte_TypeDef_Dt_ARRAY_FDateTime
+typedef sint32 Dt_ARRAY_FDateTime[2];
+
+# define Rte_TypeDef_NNC_ARRAY_8
+typedef uint8 NNC_ARRAY_8[8];
+
+# define Rte_TypeDef_Dt_IFSET_VERSION
+typedef struct
+{
+  uint8 DeMajor;
+  uint8 DeMinor;
+  uint8 DePatch;
+} Dt_IFSET_VERSION;
+
+# define Rte_TypeDef_Dt_RECORD_BistTestPointStruct
+typedef struct
+{
+  Dt_UINT8_1_0 DeTrigger;
+  Dt_UINT8_1_0 DeTpID;
+  sint32 DeData;
+} Dt_RECORD_BistTestPointStruct;
+
+# define Rte_TypeDef_Dt_RECORD_BuildDate
+typedef struct
+{
+  uint16 DeYear;
+  uint8 DeMonth;
+  uint8 DeDay;
+  uint8 DeHour;
+  uint8 DeMinute;
+  uint8 DeSecond;
+} Dt_RECORD_BuildDate;
+
+# define Rte_TypeDef_Dt_RECORD_CleaningInitLevelStruct
+typedef struct
+{
+  boolean CleanFront;
+  boolean CleanRear;
+} Dt_RECORD_CleaningInitLevelStruct;
+
+# define Rte_TypeDef_Dt_RECORD_Config_IFE2EP_CRC
+typedef struct
+{
+  Dt_UINT16_1_0 DeElementId;
+  Dt_UINT16_1_0 DeByteOffset;
+  Dt_UINT8_1_0 DeXorValue;
+} Dt_RECORD_Config_IFE2EP_CRC;
+
+# define Rte_TypeDef_Dt_RECORD_Config_IFE2EP_Sequence
+typedef struct
+{
+  Dt_UINT16_1_0 DeElementId;
+  Dt_SINT8_1_0 DeSeqCntDelta;
+} Dt_RECORD_Config_IFE2EP_Sequence;
+
+# define Rte_TypeDef_Dt_RECORD_CurrentLocationActual
+typedef struct
+{
+  uint16 DeLatidude;
+  uint16 DeLongitude;
+} Dt_RECORD_CurrentLocationActual;
+
+# define Rte_TypeDef_Dt_RECORD_DSCHAdaption
+typedef struct
+{
+  uint8 DePlaceholder;
+} Dt_RECORD_DSCHAdaption;
+
+# define Rte_TypeDef_Dt_RECORD_DebugUnlockingStruct
+typedef struct
+{
+  uint32 MagicFlagA;
+  uint32 MagicFlagB;
+} Dt_RECORD_DebugUnlockingStruct;
+
+# define Rte_TypeDef_Dt_RECORD_Diag_Coding
+typedef struct
+{
+  Dt_UINT8_1_0 FW_Dummy;
+} Dt_RECORD_Diag_Coding;
+
+# define Rte_TypeDef_Dt_RECORD_EHReporterID
+typedef struct
+{
+  Dt_ENUM_SWCID swcid;
+  uint16 token;
+} Dt_RECORD_EHReporterID;
+
+# define Rte_TypeDef_Dt_RECORD_EHStatusStruct
+typedef struct
+{
+  uint8 EHSH00Status;
+  uint8 EHPH00Status;
+  uint8 EHPH01Status;
+} Dt_RECORD_EHStatusStruct;
+
+# define Rte_TypeDef_Dt_RECORD_Em_event_status_t
+typedef struct
+{
+  Dt_ENUM_CpEventMgr_TestResultTyp event_status;
+  Dt_ENUM_Em_debounce_status_e debounce_status;
+  sint32 fault_detection_counter;
+} Dt_RECORD_Em_event_status_t;
+
+# define Rte_TypeDef_Dt_RECORD_EthComParamStruct
+typedef struct
+{
+  uint32 p_t_error_communication_EthCom;
+} Dt_RECORD_EthComParamStruct;
+
+# define Rte_TypeDef_Dt_RECORD_FCameraDetection
+typedef struct
+{
+  float64 DeColumn;
+  float64 DeRow;
+} Dt_RECORD_FCameraDetection;
+
+# define Rte_TypeDef_Dt_RECORD_FRadarDetection
+typedef struct
+{
+  float64 DeRange;
+  float64 DePhi;
+  float64 DeRadialVelocity;
+} Dt_RECORD_FRadarDetection;
+
+# define Rte_TypeDef_Dt_RECORD_IFWdgMTest
+typedef struct
+{
+  Dt_UINT8_1_0 DeTPxCtrl;
+  Dt_UINT8_1_0 DeRepeatCounter;
+  Dt_UINT16_1_0 DeRnblId;
+  Dt_UINT32_1_0 DeTPDelay_us;
+} Dt_RECORD_IFWdgMTest;
+
+# define Rte_TypeDef_Dt_RECORD_Iter_Platform_Persistency_Status_PH00_0x1004
+typedef struct
+{
+  Dt_UINT16_1_0 PH00_Block_ID;
+  Dt_UINT32_1_0 PH00_Block_Trigger_Counter;
+  Dt_UINT16_1_0 PH00_Status_of_data_block;
+} Dt_RECORD_Iter_Platform_Persistency_Status_PH00_0x1004;
+
+# define Rte_TypeDef_Dt_RECORD_LastLocationActual
+typedef struct
+{
+  uint8 DeNation;
+  uint8 DeState;
+} Dt_RECORD_LastLocationActual;
+
+# define Rte_TypeDef_Dt_RECORD_PPSwitchLevelsStruct
+typedef struct
+{
+  uint32 pp_short_to_gnd_low;
+  uint32 pp_short_to_gnd_high;
+  uint32 pp_closed_low;
+  uint32 pp_closed_high;
+  uint32 pp_open_low;
+  uint32 pp_open_high;
+  uint32 pp_nc_shortvbat_low;
+  uint32 pp_nc_shortvbat_high;
+  uint32 pp_debouncing;
+  uint32 checksum;
+  uint32 id;
+  boolean EI_20_default_state;
+  boolean EI_21_default_state;
+} Dt_RECORD_PPSwitchLevelsStruct;
+
+# define Rte_TypeDef_Dt_RECORD_SWVersion_ZStage
+typedef struct
+{
+  uint8 DeVersion0;
+  uint8 DeVersion1;
+  uint8 DeVersion2;
+  uint8 DeVersion3;
+} Dt_RECORD_SWVersion_ZStage;
+
+# define Rte_TypeDef_Dt_RECORD_SW_Version
+typedef struct
+{
+  uint8 DeMajor;
+  uint8 DeMinor;
+} Dt_RECORD_SW_Version;
+
+# define Rte_TypeDef_Dt_RECORD_StbmTimestamp
+typedef struct
+{
+  uint8 status;
+  uint32 nanoseconds;
+  uint32 seconds;
+  uint16 secondsHigh;
+} Dt_RECORD_StbmTimestamp;
+
+# define Rte_TypeDef_Dt_RECORD_Timestamp
+typedef struct
+{
+  uint32 DeTimestampHigh;
+  uint32 DeTimestampLow;
+} Dt_RECORD_Timestamp;
+
+# define Rte_TypeDef_Dt_RECORD_WdgStatusStruct
+typedef struct
+{
+  Dt_UINT8_1_0 SH00WdgStatus;
+  Dt_UINT8_1_0 PH00WdgStatus;
+  Dt_UINT8_1_0 PH01WdgStatus;
+  Dt_UINT8_1_0 SH01WdgStatus;
+} Dt_RECORD_WdgStatusStruct;
+
+# define Rte_TypeDef_Dt_Record_UTCInfo
+typedef struct
+{
+  uint64 DeUtcTime;
+  Dt_ENUM_Qualifier DeQualifier;
+} Dt_Record_UTCInfo;
+
+# define Rte_TypeDef_Dt_Record_Version
+typedef struct
+{
+  uint8 DeMajor;
+  uint8 DeMinor;
+  uint8 DePatch;
+} Dt_Record_Version;
+
+# define Rte_TypeDef_Dt_CarOdometerValue
+typedef float32 Dt_CarOdometerValue;
+
+# define Rte_TypeDef_Dt_DisplayStatusSignal
+typedef sint8 Dt_DisplayStatusSignal;
+
+# define Rte_TypeDef_Dt_Engine_RPM
+typedef uint16 Dt_Engine_RPM;
+
+# define Rte_TypeDef_Dt_Object_ID
+typedef uint8 Dt_Object_ID;
+
+# define Rte_TypeDef_Dt_Radar_Rear_Object_Data_0
+typedef uint8 Dt_Radar_Rear_Object_Data_0;
+
+# define Rte_TypeDef_Dt_Radar_Rear_Object_Data_1
+typedef uint8 Dt_Radar_Rear_Object_Data_1;
+
+# define Rte_TypeDef_Dt_Radar_Rear_Object_Data_2
+typedef uint8 Dt_Radar_Rear_Object_Data_2;
+
+# define Rte_TypeDef_Dt_Radar_Rear_Object_ID
+typedef sint8 Dt_Radar_Rear_Object_ID;
+
+# define Rte_TypeDef_Dt_Speed_x
+typedef float32 Dt_Speed_x;
+
+# define Rte_TypeDef_Dt_Speed_y
+typedef float32 Dt_Speed_y;
+
+# define Rte_TypeDef_TimeInMicrosecondsType
+typedef uint32 TimeInMicrosecondsType;
+
+# define Rte_TypeDef_Dem_EventStatusExtendedType
+typedef uint8 Dem_EventStatusExtendedType;
+
+# define Rte_TypeDef_Dt_ENUM_LCS_Info
+typedef uint8 Dt_ENUM_LCS_Info;
+
+# define Rte_TypeDef_Dt_ENUM_PdDatablockStatus
+typedef uint16 Dt_ENUM_PdDatablockStatus;
+
+# define Rte_TypeDef_NNC_ENUM
+typedef uint8 NNC_ENUM;
+
+# define Rte_TypeDef_Dt_ARRAY32_Timestamp
+typedef Dt_RECORD_Timestamp Dt_ARRAY32_Timestamp[32];
+
+# define Rte_TypeDef_Dt_ARRAY8_Timestamp
+typedef Dt_RECORD_Timestamp Dt_ARRAY8_Timestamp[8];
+
+# define Rte_TypeDef_Dt_RECORD_BISTASILPH00_ParameterStruct
+typedef struct
+{
+  Dt_UINT32_1_0 BISTASIL_NumConfigBytes;
+  Dt_ARRAY32_UINT8_1_0 BISTASIL_ConfigBytes;
+} Dt_RECORD_BISTASILPH00_ParameterStruct;
+
+# define Rte_TypeDef_Dt_RECORD_BISTQMPH00_ParameterStruct
+typedef struct
+{
+  Dt_UINT32_1_0 BISTQM_NumConfigBytes;
+  Dt_ARRAY16_UINT8_1_0 BISTQM_ConfigBytes;
+} Dt_RECORD_BISTQMPH00_ParameterStruct;
+
+# define Rte_TypeDef_Dt_RECORD_ConvertingList30
+typedef struct
+{
+  Dt_RECORD_FCameraDetection DeElement0_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement1_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement2_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement3_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement4_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement5_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement6_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement7_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement8_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement9_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement10_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement11_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement12_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement13_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement14_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement15_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement16_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement17_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement18_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement19_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement20_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement21_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement22_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement23_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement24_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement25_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement26_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement27_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement28_ConvertingList30;
+  Dt_RECORD_FCameraDetection DeElement29_ConvertingList30;
+  sint32 DeCount_ConvertingList30;
+} Dt_RECORD_ConvertingList30;
+
+# define Rte_TypeDef_Dt_RECORD_ConvertingList30_1
+typedef struct
+{
+  Dt_RECORD_FRadarDetection DeElement0_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement1_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement2_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement3_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement4_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement5_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement6_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement7_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement8_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement9_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement10_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement11_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement12_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement13_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement14_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement15_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement16_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement17_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement18_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement19_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement20_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement21_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement22_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement23_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement24_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement25_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement26_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement27_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement28_ConvertingList30_1;
+  Dt_RECORD_FRadarDetection DeElement29_ConvertingList30_1;
+  sint32 DeCount_ConvertingList30_1;
+} Dt_RECORD_ConvertingList30_1;
+
+# define Rte_TypeDef_Dt_RECORD_EHConfigStruct
+typedef struct
+{
+  Dt_ARRAY7920_UINT8_1_0 EH_ConfigByteArray;
+  Dt_UINT32_1_0 EH_ConfigCRC;
+} Dt_RECORD_EHConfigStruct;
+
+# define Rte_TypeDef_Dt_RECORD_Front_View_Object
+typedef struct
+{
+  uint8 isUpdated;
+  Dt_Object_ID Object_ID;
+  Dt_Speed_x DeSpeed_x;
+  Dt_Speed_y DeSpeed_y;
+} Dt_RECORD_Front_View_Object;
+
+# define Rte_TypeDef_Dt_RECORD_IFE2EP_CRC
+typedef struct
+{
+  Dt_RECORD_Config_IFE2EP_CRC DeConfig_IFE2EP_CRC;
+  Dt_BOOL DeEnable;
+} Dt_RECORD_IFE2EP_CRC;
+
+# define Rte_TypeDef_Dt_RECORD_IFE2EP_Sequence
+typedef struct
+{
+  Dt_RECORD_Config_IFE2EP_Sequence DeConfig_IFE2EP_Sequence;
+  Dt_BOOL DeEnable;
+} Dt_RECORD_IFE2EP_Sequence;
+
+# define Rte_TypeDef_Dt_RECORD_LCS_StateTransition
+typedef struct
+{
+  Dt_ENUM_LCS_State fromState;
+  Dt_ENUM_LCS_State toState;
+  Dt_ENUM_LCS_Info info;
+} Dt_RECORD_LCS_StateTransition;
+
+# define Rte_TypeDef_Dt_RECORD_Messwert_Platform_Error_Handler_PH00_0x14E8
+typedef struct
+{
+  Dt_ARRAY16_UINT8_1_0 ErrorHandlerPH00;
+} Dt_RECORD_Messwert_Platform_Error_Handler_PH00_0x14E8;
+
+# define Rte_TypeDef_Dt_RECORD_Messwert_Platform_Persistency_Status_PH00_0x1004
+typedef struct
+{
+  Dt_RECORD_Iter_Platform_Persistency_Status_PH00_0x1004 Platform_Persistency_Status_PH00_0x1004;
+  Dt_UINT16_1_0 Platform_Persistency_Status_PH00_0x1004_IDX;
+  Dt_UINT16_1_0 Platform_Persistency_Status_PH00_0x1004_DATALENGTH;
+} Dt_RECORD_Messwert_Platform_Persistency_Status_PH00_0x1004;
+
+# define Rte_TypeDef_Dt_RECORD_Messwert_Plattform_Watchdog_PH00_0x107D
+typedef struct
+{
+  Dt_UINT16_1_0 PH00_Err_Counters;
+  Dt_UINT8_1_0 PH00_Question_To_Be_Answered;
+  Dt_UINT32_1_0 PH00_Answer;
+  Dt_ARRAY8_UINT8_1_0 PH00_Timestamp;
+} Dt_RECORD_Messwert_Plattform_Watchdog_PH00_0x107D;
+
+# define Rte_TypeDef_Dt_RECORD_PdVersion
+typedef struct
+{
+  Dt_RECORD_SW_Version DeExpectedVersion;
+  Dt_RECORD_SW_Version DeVersion;
+} Dt_RECORD_PdVersion;
+
+# define Rte_TypeDef_Dt_RECORD_Radar_Rear_Object
+typedef struct
+{
+  uint8 isUpdated;
+  Dt_Radar_Rear_Object_Data_0 Data_0;
+  Dt_Radar_Rear_Object_Data_1 Data_1;
+  Dt_Radar_Rear_Object_Data_2 Data_2;
+  Dt_Radar_Rear_Object_ID ID;
+} Dt_RECORD_Radar_Rear_Object;
+
+# define Rte_TypeDef_Dt_RECORD_SWC_Identification
+typedef struct
+{
+  Dt_RECORD_SWVersion_ZStage DeZStage;
+  Dt_IFSET_VERSION DeSwcIFSET;
+  Dt_RECORD_SW_Version DePlatformVersion;
+  Dt_RECORD_BuildDate DeBuildDatePlatform;
+  Dt_RECORD_SW_Version DeSWCVersion;
+  Dt_RECORD_BuildDate DeBuildDateSWC;
+} Dt_RECORD_SWC_Identification;
+
+# define Rte_TypeDef_Dt_RECORD_TemperatureData
+typedef struct
+{
+  Dt_ARRAY8_Temperature DeTemperature;
+  Dt_ARRAY8_Qualifier DeQualifier;
+  Dt_ARRAY8_Timestamp DeTimestamp;
+} Dt_RECORD_TemperatureData;
+
+# define Rte_TypeDef_Dt_RECORD_Test1_PH00_Bd
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  uint8 DeData;
+} Dt_RECORD_Test1_PH00_Bd;
+
+# define Rte_TypeDef_Dt_RECORD_TimeReportStruct
+typedef struct
+{
+  uint32 DeTriggerSequence;
+  Dt_RECORD_Timestamp DeEgtAtTrigger;
+} Dt_RECORD_TimeReportStruct;
+
+# define Rte_TypeDef_Dt_RECORD_TimestampMid
+typedef struct
+{
+  Dt_RECORD_Timestamp DeTimestampEGT;
+  Dt_RECORD_Timestamp DeTimestampMW_RX;
+  Dt_RECORD_Timestamp DeTimestampMW_TX;
+} Dt_RECORD_TimestampMid;
+
+# define Rte_TypeDef_Dt_RECORD_VoltageStruct
+typedef struct
+{
+  Dt_ARRAY32_Voltage DeVoltage;
+  Dt_ARRAY32_Qualifier DeQualifier;
+  Dt_ARRAY32_Timestamp DeTimestamp;
+} Dt_RECORD_VoltageStruct;
+
+# define Rte_TypeDef_Dt_RECORD_WdgStatus
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_WdgStatusStruct DeData;
+} Dt_RECORD_WdgStatus;
+
+# define Rte_TypeDef_Dt_Record_TestLarge
+typedef struct
+{
+  Dt_ARRAY1600_UINT32_1_0 dataArr;
+  Dt_UINT8_1_0 dataPrim;
+} Dt_Record_TestLarge;
+
+# define Rte_TypeDef_Dt_Record_TestLargeTs
+typedef struct
+{
+  Dt_RECORD_TimestampMid DeTimestamp;
+  Dt_ARRAY1600_UINT32_1_0 dataArr;
+  Dt_UINT8_1_0 dataPrim;
+} Dt_Record_TestLargeTs;
+
+# define Rte_TypeDef_Dt_Record_TestLarge_E_01
+typedef struct
+{
+  Dt_ARRAY1600_UINT32_1_0 dataArr;
+  Dt_UINT8_1_0 dataPrim;
+} Dt_Record_TestLarge_E_01;
+
+# define Rte_TypeDef_Dt_Record_TestSmall
+typedef struct
+{
+  Dt_ARRAY8_UINT8_1_0 dataArr;
+  Dt_UINT32_1_0 dataPrim;
+} Dt_Record_TestSmall;
+
+# define Rte_TypeDef_Dt_Record_TestSmallTs
+typedef struct
+{
+  Dt_RECORD_TimestampMid DeTimestamp;
+  Dt_ARRAY8_UINT8_1_0 dataArr;
+  Dt_UINT32_1_0 dataPrim;
+} Dt_Record_TestSmallTs;
+
+# define Rte_TypeDef_Dt_Record_TestSmallTs_E
+typedef struct
+{
+  Dt_RECORD_TimestampMid DeTimestamp;
+  Dt_ARRAY8_UINT8_1_0 dataArr;
+  Dt_UINT32_1_0 dataPrim;
+} Dt_Record_TestSmallTs_E;
+
+# define Rte_TypeDef_Dt_Record_TestSmall_E
+typedef struct
+{
+  Dt_ARRAY8_UINT8_1_0 dataArr;
+  Dt_UINT32_1_0 dataPrim;
+} Dt_Record_TestSmall_E;
+
+# define Rte_TypeDef_Dt_Record_TestSmall_E_01
+typedef struct
+{
+  Dt_ARRAY8_UINT8_1_0 dataArr;
+  Dt_UINT32_1_0 dataPrim;
+} Dt_Record_TestSmall_E_01;
+
+# define Rte_TypeDef_NNC_DataRecord
+typedef struct
+{
+  NNC_ARRAY_8 array_type_element;
+  NNC_ENUM enum_type_element;
+  uint64 primitive_type_element;
+} NNC_DataRecord;
+
+# define Rte_TypeDef_NNC_Parameter
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  NNC_DataRecord DeData;
+} NNC_Parameter;
+
+# define Rte_TypeDef_NNC_Parameter_BD_Normal
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  uint8 DeData;
+} NNC_Parameter_BD_Normal;
+
+# define Rte_TypeDef_NNC_Parameter_Normal
+typedef NNC_Parameter NNC_Parameter_Normal;
+
+# define Rte_TypeDef_Dt_ARRAY_4_Front_View_Object
+typedef Dt_RECORD_Front_View_Object Dt_ARRAY_4_Front_View_Object[4];
+
+# define Rte_TypeDef_Dt_ARRAY_5_Radar_Rear_Object
+typedef Dt_RECORD_Radar_Rear_Object Dt_ARRAY_5_Radar_Rear_Object[5];
+
+# define Rte_TypeDef_Dt_RECORD_BISTASILPH00_Parameter
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_BISTASILPH00_ParameterStruct DeData;
+} Dt_RECORD_BISTASILPH00_Parameter;
+
+# define Rte_TypeDef_Dt_RECORD_BISTQMPH00_Parameter
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_BISTQMPH00_ParameterStruct DeData;
+} Dt_RECORD_BISTQMPH00_Parameter;
+
+# define Rte_TypeDef_Dt_RECORD_BISTQMPH00_Parameter_Normal
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_ARRAY28_UINT8_1_0 DeData;
+} Dt_RECORD_BISTQMPH00_Parameter_Normal;
+
+# define Rte_TypeDef_Dt_RECORD_CleaningInitLevel
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_CleaningInitLevelStruct DeData;
+} Dt_RECORD_CleaningInitLevel;
+
+# define Rte_TypeDef_Dt_RECORD_CurrentLocation
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_CurrentLocationActual DeData;
+} Dt_RECORD_CurrentLocation;
+
+# define Rte_TypeDef_Dt_RECORD_DebugInfoConfig
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_ARRAY1536_UINT8_1_0 DeData;
+} Dt_RECORD_DebugInfoConfig;
+
+# define Rte_TypeDef_Dt_RECORD_DebugUnlocking
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_DebugUnlockingStruct DeData;
+} Dt_RECORD_DebugUnlocking;
+
+# define Rte_TypeDef_Dt_RECORD_Debug_Parameter_NormalLogging
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  uint8 DeData;
+} Dt_RECORD_Debug_Parameter_NormalLogging;
+
+# define Rte_TypeDef_Dt_RECORD_Debug_Parameter_NormalTracing
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  uint8 DeData;
+} Dt_RECORD_Debug_Parameter_NormalTracing;
+
+# define Rte_TypeDef_Dt_RECORD_EHConfig
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_EHConfigStruct DeData;
+} Dt_RECORD_EHConfig;
+
+# define Rte_TypeDef_Dt_RECORD_EH_Status
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_EHStatusStruct DeData;
+} Dt_RECORD_EH_Status;
+
+# define Rte_TypeDef_Dt_RECORD_EthComParam
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_EthComParamStruct DeData;
+} Dt_RECORD_EthComParam;
+
+# define Rte_TypeDef_Dt_RECORD_FCameraDetectionList
+typedef struct
+{
+  Dt_ARRAY_FDateTime DeDateTime;
+  Dt_RECORD_ConvertingList30 DeDetections_FCameraDetectionList;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_FCameraDetectionList;
+
+# define Rte_TypeDef_Dt_RECORD_FRadarDetectionList
+typedef struct
+{
+  Dt_ARRAY_FDateTime DeDateTime;
+  Dt_RECORD_ConvertingList30_1 DeDetections_FRadarDetectionList;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_FRadarDetectionList;
+
+# define Rte_TypeDef_Dt_RECORD_FVelocityMeasurement
+typedef struct
+{
+  Dt_ARRAY_FDateTime DeDateTime;
+  float64 DeVelocity;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_FVelocityMeasurement;
+
+# define Rte_TypeDef_Dt_RECORD_FYawRateMeasurement
+typedef struct
+{
+  Dt_ARRAY_FDateTime DeDateTime;
+  float64 DeYawRate;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_FYawRateMeasurement;
+
+# define Rte_TypeDef_Dt_RECORD_GlobalVehiclePosition
+typedef struct
+{
+  float32 Latitude;
+  float32 Longitude;
+  float32 Altitude;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_GlobalVehiclePosition;
+
+# define Rte_TypeDef_Dt_RECORD_GlobalVehicleState
+typedef struct
+{
+  sint8 element1;
+  sint16 element2;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_GlobalVehicleState;
+
+# define Rte_TypeDef_Dt_RECORD_IFInjectValueToTRPH00
+typedef struct
+{
+  Dt_RECORD_TimeReportStruct DeConfig;
+  Dt_UINT8_1_0 DeInjectEnabled;
+  boolean DeTimeReportDisabled;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_IFInjectValueToTRPH00;
+
+# define Rte_TypeDef_Dt_RECORD_LastLocation
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_LastLocationActual DeData;
+} Dt_RECORD_LastLocation;
+
+# define Rte_TypeDef_Dt_RECORD_Messwert_BIST_Generic
+typedef struct
+{
+  Dt_RECORD_TemperatureData DeTemperature_status;
+  Dt_RECORD_VoltageStruct DeVoltage_status;
+} Dt_RECORD_Messwert_BIST_Generic;
+
+# define Rte_TypeDef_Dt_RECORD_Messwert_ErrorHandlerProxyPH00
+typedef struct
+{
+  Dt_RECORD_Messwert_Platform_Error_Handler_PH00_0x14E8 DePlatform_Error_Handler_PH00_0x14E8;
+} Dt_RECORD_Messwert_ErrorHandlerProxyPH00;
+
+# define Rte_TypeDef_Dt_RECORD_Messwert_HostSupervisionSlavePH00
+typedef struct
+{
+  Dt_RECORD_Messwert_Plattform_Watchdog_PH00_0x107D De_Platform_Watchdog_PH00_0x107D;
+} Dt_RECORD_Messwert_HostSupervisionSlavePH00;
+
+# define Rte_TypeDef_Dt_RECORD_PPSwitchLevels
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_RECORD_PPSwitchLevelsStruct DeData;
+} Dt_RECORD_PPSwitchLevels;
+
+# define Rte_TypeDef_Dt_RECORD_Test1_PH00_Critical
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_Record_TestSmall DeData;
+} Dt_RECORD_Test1_PH00_Critical;
+
+# define Rte_TypeDef_Dt_RECORD_TestLarge_Bd_Ds
+typedef struct
+{
+  Dt_ENUM_PdDatablockStatus DeStatus;
+  Dt_RECORD_PdVersion DeVersion;
+  Dt_Record_TestLarge DeData;
+} Dt_RECORD_TestLarge_Bd_Ds;
+
+
+# ifndef RTE_SUPPRESS_UNUSED_DATATYPES
+/**********************************************************************************************************************
+ * Unused Data type definitions
+ *********************************************************************************************************************/
+
+#  define Rte_TypeDef_Dt_UINT24_1_0
+typedef uint32 Dt_UINT24_1_0;
+
+#  define Rte_TypeDef_dtRef_VOID
+typedef void * dtRef_VOID;
+
+#  define Rte_TypeDef_dtRef_const_VOID
+typedef const void * dtRef_const_VOID;
+
+#  define Rte_TypeDef_Dt_ARRAY128
+typedef uint16 Dt_ARRAY128[128];
+
+#  define Rte_TypeDef_Dt_ARRAY_256_ch0
+typedef uint8 Dt_ARRAY_256_ch0[256];
+
+#  define Rte_TypeDef_Dt_ARRAY_256_ch1
+typedef uint8 Dt_ARRAY_256_ch1[256];
+
+#  define Rte_TypeDef_Dt_ARRAY_256_ch2
+typedef uint8 Dt_ARRAY_256_ch2[256];
+
+#  define Rte_TypeDef_Dt_ARRAY_256_ch3
+typedef uint8 Dt_ARRAY_256_ch3[256];
+
+#  define Rte_TypeDef_Dt_RECORD_Anpassung_Platform_Log_Channel_0x056F
+typedef struct
+{
+  Dt_UINT8_1_0 Platform_Log_Channel;
+} Dt_RECORD_Anpassung_Platform_Log_Channel_0x056F;
+
+#  define Rte_TypeDef_Dt_RECORD_TimestampAGT
+typedef struct
+{
+  Dt_UINT24_1_0 DeAGThigh;
+  Dt_UINT32_1_0 DeAGTlow;
+  Dt_UINT8_1_0 DeAGTQual;
+} Dt_RECORD_TimestampAGT;
+
+#  define Rte_TypeDef_Dem_UdsStatusByteType
+typedef uint8 Dem_UdsStatusByteType;
+
+#  define Rte_TypeDef_NvM_RequestResultType
+typedef uint8 NvM_RequestResultType;
+
+#  define Rte_TypeDef_NvM_ServiceIdType
+typedef uint8 NvM_ServiceIdType;
+
+#  define Rte_TypeDef_Dt_RECORD_EthernetOut
+typedef struct
+{
+  uint16 message_counter;
+  Dt_ARRAY128 message_payload;
+  uint32 message_crc;
+  Dt_RECORD_TimestampMid DeTimestamp;
+} Dt_RECORD_EthernetOut;
+
+#  define Rte_TypeDef_Dt_RECORD_Messwert_Platform_Watchdog_PH00_0x107D
+typedef struct
+{
+  Dt_UINT16_1_0 PH00_Err_Counters;
+  Dt_UINT8_1_0 PH00_Question_To_Be_Answered;
+  Dt_UINT32_1_0 PH00_Answer;
+  Dt_ARRAY8_UINT8_1_0 PH00_Timestamp;
+} Dt_RECORD_Messwert_Platform_Watchdog_PH00_0x107D;
+
+#  define Rte_TypeDef_Dt_RECORD_VideoIn
+typedef struct
+{
+  uint32 control;
+  Dt_ARRAY_256_ch0 ch0;
+  Dt_ARRAY_256_ch1 ch1;
+  Dt_ARRAY_256_ch2 ch2;
+  Dt_ARRAY_256_ch3 ch3;
+} Dt_RECORD_VideoIn;
+
+# endif
+
+
+/**********************************************************************************************************************
+ * Constant value definitions
+ *********************************************************************************************************************/
+
+# define RTE_START_SEC_CONST_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern CONST(Dt_ARRAY120_UINT8_1_0, RTE_CONST) Rte_C_ARRAY120_UINT8_1_0; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY512_DtcStatusTable, RTE_CONST) Rte_C_ARRAY_512_DtcStatusTable; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY5_ReleaseType, RTE_CONST) Rte_C_ARRAY_5_ReleaseType; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY6_UINT32_1_0, RTE_CONST) Rte_C_SetErrors_Proxy; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY6_UINT32_1_0, RTE_CONST) Rte_C_UnsetErrors_Proxy; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY_1024_DisplayData, RTE_CONST) Rte_C_ARRAY_1024_DisplayData; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY_4_Front_View_Object, RTE_CONST) Rte_C_ARRAY_4_Front_View_Object; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY_5_Radar_Rear_Object, RTE_CONST) Rte_C_ARRAY_5_Radar_Rear_Object; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_ARRAY_6_EHReport, RTE_CONST) Rte_C_ARRAY_6_EHReport; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(NNC_ARRAY_8, RTE_CONST) Rte_C_array8; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_IFSET_VERSION, RTE_CONST) Rte_C_IFSET_VERSION; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_BISTASILPH00_Parameter, RTE_CONST) Rte_C_RECORD_BISTASILPH00_Parameter; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_BISTQMPH00_Parameter, RTE_CONST) Rte_C_RECORD_BISTQMPH00_Parameter; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_CONST) Rte_C_RECORD_BISTQMPH00_Parameter_Normal; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_BistTestPointStruct, RTE_CONST) Rte_C_RECORD_BistTestPointStruct; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_CleaningInitLevel, RTE_CONST) Rte_C_RECORD_CleaningInitLevel; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_CurrentLocation, RTE_CONST) Rte_C_RECORD_CurrentLocation; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_DSCHAdaption, RTE_CONST) Rte_C_RECORD_DSCHAdaption; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_DebugInfoConfig, RTE_CONST) Rte_C_RECORD_DebugInfoConfig; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_DebugUnlocking, RTE_CONST) Rte_C_RECORD_DebugUnlocking; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Debug_Parameter_NormalLogging, RTE_CONST) Rte_C_RECORD_Debug_Parameter_NormalLogging; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Debug_Parameter_NormalTracing, RTE_CONST) Rte_C_RECORD_Debug_Parameter_NormalTracing; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Diag_Coding, RTE_CONST) Rte_C_RECORD_Diag_Coding; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_EHConfig, RTE_CONST) Rte_C_RECORD_EHConfig; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_EH_Status, RTE_CONST) Rte_C_RECORD_EH_STATUS_INIT; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Em_event_status_t, RTE_CONST) Rte_C_RECORD_Em_event_status_t; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_EthComParam, RTE_CONST) Rte_C_RECORD_EthComParam; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_FCameraDetectionList, RTE_CONST) Rte_C_RECORD_FCameraDetectionList; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_FRadarDetectionList, RTE_CONST) Rte_C_RECORD_FRadarDetectionList; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_FVelocityMeasurement, RTE_CONST) Rte_C_RECORD_FVelocityMeasurement; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_FYawRateMeasurement, RTE_CONST) Rte_C_RECORD_FYawRateMeasurement; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_GlobalVehiclePosition, RTE_CONST) Rte_C_RECORD_GlobalVehiclePosition; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_IFE2EP_CRC, RTE_CONST) Rte_C_RECORD_IFE2EP_CRC; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_IFE2EP_Sequence, RTE_CONST) Rte_C_RECORD_IFE2EP_Sequence; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_IFInjectValueToTRPH00, RTE_CONST) Rte_C_RECORD_IFInjectValueToTRPH00; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_IFWdgMTest, RTE_CONST) Rte_C_RECORD_IFWdgMTest; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_LastLocation, RTE_CONST) Rte_C_RECORD_LastLocation; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Messwert_BIST_Generic, RTE_CONST) Rte_C_RECORD_Messwert_BIST_Generic; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Messwert_ErrorHandlerProxyPH00, RTE_CONST) Rte_C_RECORD_Messwert_ErrorHandlerProxyPH00; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Messwert_HostSupervisionSlavePH00, RTE_CONST) Rte_C_RECORD_Messwert_HostSupervisionSlavePH00; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_PPSwitchLevels, RTE_CONST) Rte_C_RECORD_PPSwitchLevels; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_StbmTimestamp, RTE_CONST) Rte_C_RECORD_StbmTimestamp; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_TemperatureData, RTE_CONST) Rte_C_RECORD_TemperatureData; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Test1_PH00_Bd, RTE_CONST) Rte_C_RECORD_Test1_PH00_Bd; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Test1_PH00_Critical, RTE_CONST) Rte_C_RECORD_Test1_PH00_Critical; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_Test1_PH00_Critical, RTE_CONST) Rte_C_RECORD_Test1_SH00_Critical; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_TestLarge_Bd_Ds, RTE_CONST) Rte_C_RECORD_TestLarge_Bd_Ds; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_RECORD_WdgStatus, RTE_CONST) Rte_C_RECORD_WdgStatus; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_TestLargeTs, RTE_CONST) Rte_C_Record_TestLargeTs; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_TestSmall, RTE_CONST) Rte_C_Record_TestSmall; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_TestSmallTs, RTE_CONST) Rte_C_Record_TestSmallTs; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_TestSmall_E, RTE_CONST) Rte_C_Record_TestSmall_E; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_TestSmall_E_01, RTE_CONST) Rte_C_Record_TestSmall_E_01; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_UTCInfo, RTE_CONST) Rte_C_Record_UTCInfo; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(Dt_Record_Version, RTE_CONST) Rte_C_Record_VersionInit; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(NNC_Parameter_BD_Normal, RTE_CONST) Rte_C_NNC_Parameter_BD_Normal; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+extern CONST(NNC_Parameter_Normal, RTE_CONST) Rte_C_NNC_Parameter; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+# define RTE_STOP_SEC_CONST_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+# include "Rte_DataHandleType.h"
+
+
+/**********************************************************************************************************************
+ * Component Data Structures and Port Data Structures
+ *********************************************************************************************************************/
+
+struct Rte_CDS_CtCdMiddlewareQM_PH00
+{
+  /* Data Handles section */
+  P2VAR(Rte_DES_Dt_ENUM_PerWriteAllStatus, TYPEDEF, RTE_CTCDMIDDLEWAREQM_PH00_APPL_VAR) R_PH00_MiddlewareQM_0_OPpLcsPerNvramStoragePH00Status_DeWriteAllStatus; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  P2VAR(Rte_DE_Dt_RECORD_IFE2EP_CRC, TYPEDEF, RTE_CTCDMIDDLEWAREQM_PH00_APPL_VAR) R_PH00_MiddlewareQM_0_PpPfTpIFComE2EPH00_DeIFE2EP_CRC; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  P2VAR(Rte_DE_Dt_RECORD_IFE2EP_Sequence, TYPEDEF, RTE_CTCDMIDDLEWAREQM_PH00_APPL_VAR) R_PH00_MiddlewareQM_0_PpPfTpIFComE2EPH00_DeIFE2EP_Sequence; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  P2VAR(Rte_DE_Dt_RECORD_IFWdgMTest, TYPEDEF, RTE_CTCDMIDDLEWAREQM_PH00_APPL_VAR) R_PH00_MiddlewareQM_0_PpPfTpIFWdgMTestPH00_DeIFWdgMTest; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  P2VAR(Rte_DE_Dt_RECORD_IFE2EP_CRC, TYPEDEF, RTE_CTCDMIDDLEWAREQM_PH00_APPL_VAR) R_PH00_MiddlewareQM_0_PpPfTpTest_PH00_DeIFE2EP_CRC; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  P2VAR(Rte_DE_Dt_RECORD_IFE2EP_Sequence, TYPEDEF, RTE_CTCDMIDDLEWAREQM_PH00_APPL_VAR) R_PH00_MiddlewareQM_0_PpPfTpTest_PH00_DeIFE2EP_Sequence; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  /* Vendor specific section */
+};
+
+# define RTE_START_SEC_CONST_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern CONSTP2CONST(struct Rte_CDS_CtCdMiddlewareQM_PH00, RTE_CONST, RTE_CONST) Rte_Inst_CtCdMiddlewareQM_PH00; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+# define RTE_STOP_SEC_CONST_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+
+/**********************************************************************************************************************
+ * Buffer definitions for implicit access to S/R port elements
+ *********************************************************************************************************************/
+
+# define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+typedef struct
+{
+  Rte_DES_Dt_ENUM_PerWriteAllStatus Rte_PpLcsPerNvramStoragePH00Status_DeWriteAllStatus;
+} Rte_tsRB_CtCdLCSS_PH00_RLCSS_PH00; /* PRQA S 0779 */ /* MD_MSR_5.1_779 */
+
+typedef struct
+{
+  Rte_DES_Dt_ENUM_PerWriteAllStatus Rte_OPpLcsPerNvramStoragePH00Status_DeWriteAllStatus;
+} Rte_tsRB_CtCdMiddlewareQM_PH00_R_PH00_MiddlewareQM_0; /* PRQA S 0779 */ /* MD_MSR_5.1_779 */
+
+typedef struct
+{
+  Rte_DES_Dt_Record_TestLargeTs Rte_PpTestInter_PH00_DeLargets;
+  Rte_DES_Dt_Record_TestSmall_E_01 Rte_PpTestIntraInter_PH00_DeSmallE_01;
+} Rte_tsRB_CtApTest2_PH00_RTest2_PH00; /* PRQA S 0779 */ /* MD_MSR_5.1_779 */
+
+typedef struct
+{
+  Rte_DES_Dt_Record_TestLargeTs Rte_PpTestInter_SH00_DeLargets;
+  Rte_DES_Dt_Record_TestSmall_E Rte_PpTestInter_SH00_DeSmallE;
+  Rte_DES_Dt_Record_TestSmall_E_01 Rte_PpTestIntraInter_PH00_DeSmallE_01;
+} Rte_tsRB_CtApTest1_PH00_RTest1_PH00; /* PRQA S 0779 */ /* MD_MSR_5.1_779 */
+
+/* PRQA S 0750, 3629 L1 */ /* MD_MSR_18.4, MD_Rte_3629 */
+typedef union
+{
+  Rte_tsRB_CtCdLCSS_PH00_RLCSS_PH00 Rte_CtCdLCSS_PH00_RLCSS_PH00; /* PRQA S 3629 */ /* MD_Rte_3629 */
+  Rte_tsRB_CtCdMiddlewareQM_PH00_R_PH00_MiddlewareQM_0 Rte_CtCdMiddlewareQM_PH00_R_PH00_MiddlewareQM_0; /* PRQA S 3629 */ /* MD_Rte_3629 */
+  Rte_tsRB_CtApTest2_PH00_RTest2_PH00 Rte_CtApTest2_PH00_RTest2_PH00; /* PRQA S 3629 */ /* MD_Rte_3629 */
+  Rte_tsRB_CtApTest1_PH00_RTest1_PH00 Rte_CtApTest1_PH00_RTest1_PH00; /* PRQA S 3629 */ /* MD_Rte_3629 */
+} Rte_tuRB_DummyTask;
+/* PRQA L:L1 */
+
+typedef struct
+{
+  Rte_tuRB_DummyTask Rte_RB; /* PRQA S 3629 */ /* MD_Rte_3629 */
+} Rte_tsDummyTask;
+
+# define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+/**********************************************************************************************************************
+ *  LOCAL DATA TYPES AND STRUCTURES
+ *********************************************************************************************************************/
+
+typedef unsigned int Rte_BitType;
+/**********************************************************************************************************************
+ * type and extern declarations of RTE internal variables
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * Rte Init State Variable
+ *********************************************************************************************************************/
+
+# define RTE_STATE_UNINIT    (0U)
+# define RTE_STATE_SCHM_INIT (1U)
+# define RTE_STATE_INIT      (2U)
+
+# ifdef RTE_CORE
+
+/**********************************************************************************************************************
+ * Buffers for unqueued S/R
+ *********************************************************************************************************************/
+
+#  define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern VAR(Dt_RECORD_TemperatureData, RTE_VAR_NOINIT) Rte_CpApBISTASIL_PH00_PpBISTASILTemperature_PH00_DeEntityPH00TemperatureStruct; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Messwert_BIST_Generic, RTE_VAR_NOINIT) Rte_CpApBISTASIL_PH00_PpDiagBISTASILPH00Write_DeMesswerte_BISTASILPH00; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_ShutDownStatus, RTE_VAR_NOINIT) Rte_CpApBISTQM_PH00_PpBISTPH00ShutDownTestStatus_DeShutDownStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Messwert_BIST_Generic, RTE_VAR_NOINIT) Rte_CpApBISTQM_PH00_PpDiagBISTQMPH00Write_DeMesswerte_BISTQMPH00; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpApBISTQM_PH00_PpPdBISTQM_PH00Write_DeBISTQMPH00_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_CodingStored, RTE_VAR_NOINIT) Rte_CpApDSC_PH00_PpDSCHandlerPH00_DeCodingStored; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY512_DtcStatusTable, RTE_VAR_NOINIT) Rte_CpApDSC_PH00_PpDSCHandlerPH00_DeDtcStatusTable; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_DisplayStatusSignal, RTE_VAR_NOINIT) Rte_CpApDisplayProcessing_PpDiagDisplayProcessingWrite_ECU_Temperature; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_DisplayStatusSignal, RTE_VAR_NOINIT) Rte_CpApDisplayProcessing_PpDisplayStatusSignal_DisplayStatusSignal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_VehicleAcceleration, RTE_VAR_NOINIT) Rte_CpApGlobalDataReceiver_PpPH00ProcessedVehicleData_DeVehicleAcceleration; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_ContinentCodes, RTE_VAR_NOINIT) Rte_CpApGlobalDataReceiver_PpPH00ProcessedVehicleData_DeVehicleCurrentlyInContinent; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_CarOdometerValue, RTE_VAR_NOINIT) Rte_CpApGlobalDataReceiver_PpPH00ProcessedVehicleData_DeVehicleMileage; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(float32, RTE_VAR_NOINIT) Rte_CpApGlobalDataReceiver_PpPH00ProcessedVehicleData_DeVehicleSpeed; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Messwert_HostSupervisionSlavePH00, RTE_VAR_NOINIT) Rte_CpApHostSupervisionSlave_PH00_PpDiagHostSupervisionSlavePH00Write_DeMesswerte_HostSupervisionSlavePH00; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_CurrentLocation, RTE_VAR_NOINIT) Rte_CpApLocationControl_PpPdLocationControlWrite_DeCurrentLocation_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_LastLocation, RTE_VAR_NOINIT) Rte_CpApLocationControl_PpPdLocationControlWrite_DeLastLocation_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalLogging, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpBdDebugFRSH0000Read_BdDebugFRA_Parameter_NormalLogging_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalTracing, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpBdDebugFRSH0000Read_BdDebugFRA_Parameter_NormalTracing_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalLogging, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpBdDebugPH00Read_BdDebug_Parameter_NormalLogging_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalTracing, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpBdDebugPH00Read_BdDebug_Parameter_NormalTracing_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Test1_PH00_Bd, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpBdTest1_PH00Read_DeTest1_PH00_Bd_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_BD_Normal, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpBd_NNC_SWC_PH00_Read_DeNNC_Parameter_BD_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTASILPH00_Parameter, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsBISTASILPH00DataSet_DeBISTASILPH00_Parameter; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsBISTQMPH00DataSet_DeBISTQMPH00_Parameter; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_DebugInfoConfig, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsDebugDataSet_DeDebugInfoConfig; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_EHConfig, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsErrorHandlerDataSet_DeEHConfig; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_EH_Status, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsErrorHandlerDataSet_DeEHStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_WdgStatus, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsHostSupervisionMasterDataSet_DeWdgStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_CleaningInitLevel, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsPlatformDataSet_DeCleaningInitLevel; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_DebugUnlocking, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsPlatformDataSet_DeDebugUnlocking; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_EthComParam, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsPlatformDataSet_DeEthComParam; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_PPSwitchLevels, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsPlatformDataSet_DePPSwitchLevels; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_TestLarge_Bd_Ds, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDsTestPH00DataSet_DeLarge; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpDs_NNC_SWC_PH00DataSet_DeDataRecord; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_PerWriteAllStatus, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpLcsPerNvramStoragePH00Status_DeWriteAllStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdBISTQM_PH00Write_DeBISTQMPH00_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_CurrentLocation, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdLocationControlWrite_DeCurrentLocation_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_LastLocation, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdLocationControlWrite_DeLastLocation_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdNNC_SWC_PH00_CTWrite_DeNNC_Parameter_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdNNC_SWC_PH00_CTWrite_DeNNC_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Test1_PH00_Critical, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdTest1_PH00Write_DeTest1_PH00_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpApPer_PH00_PpPdTestComFRA_FreeRunningWrite_DeBISTQMPH00TestFRA_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FCameraDetectionList, RTE_VAR_NOINIT) Rte_CpApSensCamMeasPreprocessing_PpCameraMeasurementProcessed_DeCameraDetections; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FVelocityMeasurement, RTE_VAR_NOINIT) Rte_CpApSensEgoVehicleMeasPreprocessing_PpVelocityMeasurementProcessed_DeVelocityMeasurement; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FYawRateMeasurement, RTE_VAR_NOINIT) Rte_CpApSensEgoVehicleMeasPreprocessing_PpYawRateMeasurementProcessed_DeYawRateMeasurement; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FRadarDetectionList, RTE_VAR_NOINIT) Rte_CpApSensRadarMeasPreprocessing_PpRadarMeasurementProcessed_DeRadarDetections; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY_1024_DisplayData, RTE_VAR_NOINIT) Rte_CpApServerProcessing_PpDisplayData_DeDisplayData; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Test1_PH00_Bd, RTE_VAR_NOINIT) Rte_CpApTest1_PH00_PpBdTest1_PH00Write_DeTest1_PH00_Bd_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Test1_PH00_Critical, RTE_VAR_NOINIT) Rte_CpApTest1_PH00_PpPdTest1_PH00Write_DeTest1_PH00_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestLargeTs, RTE_VAR_NOINIT) Rte_CpApTest1_PH00_PpTestIntraMultiple_PH00_DeLargets; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmall, RTE_VAR_NOINIT) Rte_CpApTest1_PH00_PpTestIntraMultiple_PH00_DeSmall; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmallTs, RTE_VAR_NOINIT) Rte_CpApTest1_PH00_PpTestIntraSingle_PH00_DeSmallTs; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestLargeTs, RTE_VAR_NOINIT) Rte_CpApTest2_PH00_PpTestInter_PH00_DeLargets; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmall_E_01, RTE_VAR_NOINIT) Rte_CpApTest2_PH00_PpTestIntraInter_PH00_DeSmallE_01; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalLogging, RTE_VAR_NOINIT) Rte_CpApTestComFRA_FreeRunning_PpBdDebugFRSH0000Write_BdDebugFRA_Parameter_NormalLogging_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalTracing, RTE_VAR_NOINIT) Rte_CpApTestComFRA_FreeRunning_PpBdDebugFRSH0000Write_BdDebugFRA_Parameter_NormalTracing_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpApTestComFRA_FreeRunning_PpPdTestComFRA_FreeRunningWrite_DeBISTQMPH00TestFRA_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FCameraDetectionList, RTE_VAR_NOINIT) Rte_CpApTestComFRA_FreeRunning_PpTestFRASend_DeFCameraDetectionList; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_TemperatureData, RTE_VAR_NOINIT) Rte_CpApTestComSWC_PH_PpTestFRARecvLocal_DeTemperatureData; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Em_event_status_t, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpEHDebounceStatusPH00_em_event_status_t; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_BOOL, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpEHErrorInjectionPH00_DeErrorInjectionEnabled; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY6_UINT32_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpEHErrorInjectionPH00_DeSetErrors; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY6_UINT32_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpEHErrorInjectionPH00_DeUnsetErrors; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Enable, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00INJFAULTASIL_DeEnable; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT32_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00INJFAULTASIL_DeMask; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Enable, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00INJFAULTQM_DeEnable; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT32_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00INJFAULTQM_DeMask; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Enable, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00LFM_DeEnable; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT32_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00LFM_DeMask; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Enable, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFBISTPH00REBOOT_DeEnable; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_IFE2EP_CRC, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFComE2EPH00_DeIFE2EP_CRC; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_IFE2EP_Sequence, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFComE2EPH00_DeIFE2EP_Sequence; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_IFInjectValueToTRPH00, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFTimeMonitorPH00Injections_DeIFInjectTimeReportPH00; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_IFWdgMTest, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIFWdgMTestPH00_DeIFWdgMTest; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BistTestPointStruct, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpIfBISTPH00_De_RECORD_BistTestPointStruct; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT16_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpPerPH00_DeNvMReadErrorBlockId; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT16_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpPerPH00_DeNvMWriteErrorBlockId; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT16_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpPerPH00_DeNvMWriteFailureCrc; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_UINT16_1_0, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpPerPH00_DeNvMWriteFailureData; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_IFE2EP_CRC, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpTest_PH00_DeIFE2EP_CRC; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_IFE2EP_Sequence, RTE_VAR_NOINIT) Rte_CpCdCalibration_PH00_PpPfTpTest_PH00_DeIFE2EP_Sequence; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalLogging, RTE_VAR_NOINIT) Rte_CpCdDebug_PH00_PpBdDebugPH00Write_BdDebug_Parameter_NormalLogging_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Debug_Parameter_NormalTracing, RTE_VAR_NOINIT) Rte_CpCdDebug_PH00_PpBdDebugPH00Write_BdDebug_Parameter_NormalTracing_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Messwert_ErrorHandlerProxyPH00, RTE_VAR_NOINIT) Rte_CpCdErrorHandlerProxy_PH00_PpDiagErrorHandlerProxyPH00Write_DeMesswerte_ErrorHandlerProxyPH00; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY_6_EHReport, RTE_VAR_NOINIT) Rte_CpCdErrorHandlerProxy_PH00_PpEHProxyReportPH00_De_EHProxyReport; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ErrorStatus, RTE_VAR_NOINIT) Rte_CpCdErrorHandlerProxy_PH00_PpEHStatusPH00_De_ErrorStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ShutdownTrigger, RTE_VAR_NOINIT) Rte_CpCdLCSS_PH00_PpBISTPH00ShutDownTestTrigger_DeShutDownTrigger; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_ARRAY_8, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_ONNC_Port_S_Pp_nnc_data_explicit; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_ARRAY_8, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_ONNC_Port_S_Pp_nnc_data_implicit; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_ShutDownStatus, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpBISTPH00ShutDownTestStatus_DeShutDownStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ShutdownTrigger, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpBISTPH00ShutDownTestTrigger_DeShutDownTrigger; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FCameraDetectionList, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpCameraMeasurementProcessed_DeCameraDetections; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY_1024_DisplayData, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpDisplayData_DeDisplayData; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ErrorStatus, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpEHStatusPH00_De_ErrorStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_PerWriteAllStatus, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpLcsPerNvramStoragePH00Status_DeWriteAllStatus; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FRadarDetectionList, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpRadarMeasurementProcessed_DeRadarDetections; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_TemperatureData, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpTestFRARecvLocal_DeTemperatureData; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FCameraDetectionList, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpTestFRASend_DeFCameraDetectionList; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmall_E_01, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpTestIntraInter_PH00_DeSmallE_01; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestLargeTs, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpTestIntraMultiple_PH00_DeLargets; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmall, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpTestIntraMultiple_PH00_DeSmall; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmallTs, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpTestIntraSingle_PH00_DeSmallTs; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FVelocityMeasurement, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpVelocityMeasurementProcessed_DeVelocityMeasurement; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FYawRateMeasurement, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_OPpYawRateMeasurementProcessed_DeYawRateMeasurement; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Messwert_BIST_Generic, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpDiagBISTASILSH00Write_DeMesswerte_BISTSH00; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Diag_Coding, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpDiagCoding_DeCoding; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_DSCHAdaption, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpDiagDSCHAdaption_DeDSCHAdaption; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY120_UINT8_1_0, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpDtcTable_DtcTable; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(uint16, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpEHCommand_De_EHCommand; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Engine_RPM, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpEngine_RPM_Engine_RPM; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_UTCInfo, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpExtTime_DeReadUTC; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY_4_Front_View_Object, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpFront_View_Object_DeFront_View_Object; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_GlobalVehiclePosition, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpGlobalVehiclePosition_DeGlobalVehiclePosition; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_IFSET_VERSION, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPFProvidedData_DeIFSETVersion; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_LCS_State, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPFProvidedData_DeLCSPH00State; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_LCS_State, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPFProvidedData_DeLCSSH00State; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_LCS_State, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPFProvidedData_DeLCSSH01State; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_LCS_State, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPFProvidedData_DeLCSSystemState; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ENUM_VAR_HWVariant, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPFProvidedData_DeVARHWVariant; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdBISTQM_PH00Read_DeBISTQMPH00_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_CurrentLocation, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdLocationControlRead_DeCurrentLocation_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_LastLocation, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdLocationControlRead_DeLastLocation_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdNNC_SWC_PH00_CTRead_DeNNC_Parameter_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdNNC_SWC_PH00_CTRead_DeNNC_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_Test1_PH00_Critical, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdTest1_PH00Read_DeTest1_PH00_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_BISTQMPH00_Parameter_Normal, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPdTestComFRA_FreeRunningRead_DeBISTQMPH00TestFRA_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_StbmTimestamp, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPfInformation_DeBuildDate; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_BuildRevision, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPfInformation_DeBuildRevision; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_Version, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPfInformation_DePlatformVersion; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY5_ReleaseType, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPfInformation_DeReleaseType; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_IFSET_VERSION, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpPfInformation_DeSystemVersion; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_ARRAY_5_Radar_Rear_Object, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpRadar_Rear_Object_DeRadar_Rear_Object; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_CarOdometerValue, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpSH00CANOdometer_CarOdometerValue; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_RECORD_FCameraDetectionList, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpTestFRARecvRemote_DeFCameraDetectionList; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestLargeTs, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpTestInter_SH00_DeLargets; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmall_E, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpTestInter_SH00_DeSmallE; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(Dt_Record_TestSmallTs, RTE_VAR_NOINIT) Rte_CpCdMiddlewareQM_PH00_PpTestIntraInter_SH00_DeSmallTs; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_ARRAY_8, RTE_VAR_NOINIT) Rte_NNC_SWC_PH00_CT_NNC_Port_S_Pp_nnc_data_explicit; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_ARRAY_8, RTE_VAR_NOINIT) Rte_NNC_SWC_PH00_CT_NNC_Port_S_Pp_nnc_data_implicit; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_BD_Normal, RTE_VAR_NOINIT) Rte_NNC_SWC_PH00_CT_PpBd_NNC_SWC_PH00_Write_DeNNC_Parameter_BD_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_Normal, RTE_VAR_NOINIT) Rte_NNC_SWC_PH00_CT_PpPdNNC_SWC_PH00_CTWrite_DeNNC_Parameter_Critical; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+extern VAR(NNC_Parameter_Normal, RTE_VAR_NOINIT) Rte_NNC_SWC_PH00_CT_PpPdNNC_SWC_PH00_CTWrite_DeNNC_Parameter_Normal; /* PRQA S 0850, 3408, 1504 */ /* MD_MSR_19.8, MD_Rte_3408, MD_MSR_8.10 */
+
+#  define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+/* queue ROM informations type */
+typedef struct
+{
+  P2VAR(void, TYPEDEF, RTE_VAR_NOINIT) Rte_BasePtr; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  uint16 Rte_BytesPerElement;
+  uint8 Rte_MaxElements;
+} Rte_QRomInfoType;
+
+/* queue RAM informations type */
+typedef struct
+{
+  uint8 Rte_ReadCtr;
+  uint8 Rte_WriteCtr;
+  uint8 Rte_ElementCtr;
+} Rte_QRamInfoType;
+
+#  define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern VAR(Rte_QRamInfoType, RTE_VAR_NOINIT) Rte_QRamInfo[64]; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+#  define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+#  define RTE_START_SEC_CONST_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern CONST(Rte_QRomInfoType, RTE_CONST) Rte_QRomInfo[64];
+
+#  define RTE_STOP_SEC_CONST_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+typedef struct
+{
+  Rte_BitType Rte_b0 : 1;
+  Rte_BitType Rte_b1 : 1;
+  Rte_BitType Rte_b2 : 1;
+  Rte_BitType Rte_b3 : 1;
+  Rte_BitType Rte_b4 : 1;
+  Rte_BitType Rte_b5 : 1;
+  Rte_BitType Rte_b6 : 1;
+  Rte_BitType Rte_b7 : 1;
+  Rte_BitType Rte_b8 : 1;
+  Rte_BitType Rte_b9 : 1;
+  Rte_BitType Rte_b10 : 1;
+  Rte_BitType Rte_b11 : 1;
+  Rte_BitType Rte_b12 : 1;
+  Rte_BitType Rte_b13 : 1;
+  Rte_BitType Rte_b14 : 1;
+  Rte_BitType Rte_b15 : 1;
+  Rte_BitType Rte_b16 : 1;
+  Rte_BitType Rte_b17 : 1;
+  Rte_BitType Rte_b18 : 1;
+  Rte_BitType Rte_b19 : 1;
+  Rte_BitType Rte_b20 : 1;
+  Rte_BitType Rte_b21 : 1;
+  Rte_BitType Rte_b22 : 1;
+  Rte_BitType Rte_b23 : 1;
+  Rte_BitType Rte_b24 : 1;
+  Rte_BitType Rte_b25 : 1;
+  Rte_BitType Rte_b26 : 1;
+  Rte_BitType Rte_b27 : 1;
+  Rte_BitType Rte_b28 : 1;
+  Rte_BitType Rte_b29 : 1;
+  Rte_BitType Rte_b30 : 1;
+  Rte_BitType Rte_b31 : 1;
+  Rte_BitType Rte_b32 : 1;
+  Rte_BitType Rte_b33 : 1;
+  Rte_BitType Rte_b34 : 1;
+  Rte_BitType Rte_b35 : 1;
+  Rte_BitType Rte_b36 : 1;
+  Rte_BitType Rte_b37 : 1;
+  Rte_BitType Rte_b38 : 1;
+  Rte_BitType Rte_b39 : 1;
+  Rte_BitType Rte_b40 : 1;
+  Rte_BitType Rte_b41 : 1;
+  Rte_BitType Rte_b42 : 1;
+  Rte_BitType Rte_b43 : 1;
+  Rte_BitType Rte_b44 : 1;
+  Rte_BitType Rte_b45 : 1;
+  Rte_BitType Rte_b46 : 1;
+  Rte_BitType Rte_b47 : 1;
+  Rte_BitType Rte_b48 : 1;
+  Rte_BitType Rte_b49 : 1;
+  Rte_BitType Rte_b50 : 1;
+  Rte_BitType Rte_b51 : 1;
+  Rte_BitType Rte_b52 : 1;
+  Rte_BitType Rte_b53 : 1;
+  Rte_BitType Rte_b54 : 1;
+  Rte_BitType Rte_b55 : 1;
+  Rte_BitType Rte_b56 : 1;
+  Rte_BitType Rte_b57 : 1;
+  Rte_BitType Rte_b58 : 1;
+  Rte_BitType Rte_b59 : 1;
+  Rte_BitType Rte_b60 : 1;
+  Rte_BitType Rte_b61 : 1;
+  Rte_BitType Rte_b62 : 1;
+  Rte_BitType Rte_b63 : 1;
+} Rte_QOverflowType;
+
+#  define RTE_START_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern VAR(Rte_QOverflowType, RTE_VAR_NOINIT) Rte_QOverflow; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+#  define RTE_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+typedef struct
+{
+  Rte_BitType Rte_RxNeverReceived_CpApTest2_PH00_PpTestInter_PH00_DeLargets : 1;
+  Rte_BitType Rte_RxNeverReceived_CpApTest2_PH00_PpTestIntraInter_PH00_DeSmallE_01 : 1;
+  Rte_BitType Rte_RxNeverReceived_CpCdMiddlewareQM_PH00_OPpLcsPerNvramStoragePH00Status_DeWriteAllStatus : 1;
+  Rte_BitType Rte_RxNeverReceived_CpCdMiddlewareQM_PH00_OPpTestIntraInter_PH00_DeSmallE_01 : 1;
+  Rte_BitType Rte_RxNeverReceived_CpCdMiddlewareQM_PH00_PpTestInter_SH00_DeLargets : 1;
+  Rte_BitType Rte_RxNeverReceived_CpCdMiddlewareQM_PH00_PpTestInter_SH00_DeSmallE : 1;
+} Rte_RxNeverReceivedFlagsType;
+
+#  define RTE_START_SEC_VAR_ZERO_INIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern VAR(Rte_RxNeverReceivedFlagsType, RTE_VAR_ZERO_INIT) Rte_RxNeverReceivedFlags;
+
+#  define RTE_STOP_SEC_VAR_ZERO_INIT_UNSPECIFIED
+#  include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+
+
+# endif /* defined(RTE_CORE) */
+
+/**********************************************************************************************************************
+ * extern declaration of RTE Update Flags for optimized macro implementation
+ *********************************************************************************************************************/
+typedef struct
+{
+  Rte_BitType Rte_RxUpdate_CpApTest3_PH00_PpTestIntraInter_SH00_DeSmallTs : 1;
+} Rte_RxUpdateFlagsType;
+
+# define RTE_START_SEC_VAR_ZERO_INIT_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+extern VAR(Rte_RxUpdateFlagsType, RTE_VAR_ZERO_INIT) Rte_RxUpdateFlags;
+
+# define RTE_STOP_SEC_VAR_ZERO_INIT_UNSPECIFIED
+# include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
+
+
+#endif /* _RTE_TYPE_H */
+
+/**********************************************************************************************************************
+ MISRA 2004 violations and justifications
+ *********************************************************************************************************************/
+
+/* module specific MISRA deviations:
+   MD_Rte_3408:  MISRA rule: 8.8
+     Reason:     For the purpose of monitoring during calibration or debugging it is necessary to use non-static declarations.
+                 This is covered in the MISRA C compliance section of the Rte specification.
+     Risk:       No functional risk.
+     Prevention: Not required.
+
+   MD_Rte_3629:  MISRA rule: 12.12
+     Reason:     For an efficient usage of memory the swapping of memory is essential. If data is sequential accessed
+                 and not affected by other data the only solution with a type safety access is the usage of unions.
+     Risk:       Wrong implementations could remain undetected.
+     Prevention: Code inspection and test of different source code variants by the component test suites.
+
+*/

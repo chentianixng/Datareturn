@@ -1,0 +1,4 @@
+/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/rebuild_cache.dir
+/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/dataUploader.dir
+/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/edit_cache.dir
+/home/igs/ctx/dataReturn/shmdata/build/CMakeFiles/dataMirrorDemo.dir
